@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    padding-left: 40vw;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+span {
+    color: red;
+}
+
+form div:first-child {
+    margin-top: 30vh;
+}
+
+input,
+textarea {
+    margin-bottom: 5px;
+}
+
+input:hover {
+    border: 2px solid rgb(67, 223, 240);
+}
+
+textarea:hover {
+    border: 1px solid rgb(67, 223, 240);
+}
+
+form div:last-child input {
+    color: white;
+    background: rgb(67, 223, 240);
+    padding: 5px 8.75vw;
+    border: none;
+}
+
+form div:last-child input:hover {
+    background: black;
+}
